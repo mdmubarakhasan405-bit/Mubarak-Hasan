@@ -1,0 +1,215 @@
+<!DOCTYPE html><html lang="bn">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mubarak Hasan — Digital Marketing Expert</title><!-- এখানে আপনার কাস্টম CSS শুরু -->
+<style>
+    /* ----------- গ্লোবাল স্টাইল ----------- */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+    }
+    a {
+        text-decoration: none;
+    }
+    
+    /* ----------- হিরো সেকশন ----------- */
+    .hero {
+        background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+        color: white;
+        padding: 120px 40px;
+        text-align: center;
+    }
+    .hero h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+    .hero p {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .hero .cta-btn {
+        padding: 12px 28px;
+        background: white;
+        color: #4f46e5;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+
+    /* ----------- About Section ----------- */
+    #about {
+        padding: 80px 40px;
+        background: white;
+        text-align: center;
+    }
+    #about h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    #about p {
+        max-width: 700px;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    /* ----------- Services
+
+    <!-- বাংলা নির্দেশনা: এখানে প্রতিটি সার্ভিস কার্ডে আপনার সার্ভিস আইকন/ছবি বসাবেন -->
+    <!-- উদাহরণ: <img src="images/google-ads.png" alt="Google Ads Icon"> --> Section ----------- */
+    #services {
+        padding: 80px 40px;
+        background: #f0f0ff;
+        text-align: center;
+    }
+    #services h2 {
+        font-size: 36px;
+    }
+    .service-boxes {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 40px;
+    }
+    .service-card {
+        background: white;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.08);
+    }
+
+    /* ----------- Portfolio
+
+    <!-- বাংলা নির্দেশনা: আপনার কাজের প্রজেক্টের ছবি এখানে বসাবেন -->
+    <!-- উদাহরণ: <img src="images/project1.jpg" alt="Project Image"> --> Section ----------- */
+    #portfolio {
+        padding: 80px 40px;
+        background: white;
+        text-align: center;
+    }
+    #portfolio h2 {
+        font-size: 36px;
+    }
+    .portfolio-grid {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 25px;
+    }
+    .portfolio-item img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    /* ----------- Contact Section ----------- */
+    #contact {
+        padding: 80px 40px;
+        background: #eef2ff;
+        text-align: center;
+    }
+    #contact h2 {
+        font-size: 36px;
+    }
+    .contact-links a {
+        display: block;
+        margin: 10px;
+        font-size: 18px;
+        color: #4f46e5;
+        font-weight: bold;
+    }
+
+    /* ----------- Footer ----------- */
+    footer {
+        padding: 20px;
+        text-align: center;
+        background: #1e1b4b;
+        color: white;
+    }
+</style>
+
+<!-- বাংলা নির্দেশনা: এখানে CSS, ফন্ট এবং কাস্টম স্টাইল থাকে -->
+
+</head>
+<body><!-- 🔵 বাংলা নির্দেশনা: উপরের মেনু/সেকশন বোতামগুলো এখানে যোগ করা হলো -->
+<nav style="background:#1e1b4b; padding:15px; text-align:center; position:sticky; top:0; z-index:999;">
+    <!-- এখানে আপনার সেকশন বোতাম থাকবে → Hero / About / Services / Portfolio / Contact -->
+    <a href="#about" style="color:white; margin:0 15px; font-size:18px;">About</a>
+    <a href="#services" style="color:white; margin:0 15px; font-size:18px;">Services</a>
+    <a href="#portfolio" style="color:white; margin:0 15px; font-size:18px;">Portfolio</a>
+    <a href="#contact" style="color:white; margin:0 15px; font-size:18px;">Contact</a>
+</nav>
+
+<!-- বাংলা নির্দেশনা: নিচে আপনার প্রোফাইল ছবি বসাবেন -->
+<!-- উদাহরণ: <img src="images/profile.jpg" alt="Mubarak Hasan Profile"> -->
+
+<!-- --------------- HERO SECTION --------------- -->
+<section class="hero">
+    <h1>Mubarak Hasan — Digital Marketing Expert</h1>
+    <p>Social Media Marketing • Google Ads • SEO • Brand Promotion</p>
+
+    <!-- CTA বোতাম -->
+    <a href="#contact" class="cta-btn">Contact Me</a>
+</section>
+
+<!-- --------------- ABOUT SECTION --------------- -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hi! I'm Mubarak Hasan — a passionate Digital Marketing Expert.
+        I specialize in Social Media Marketing, Google Ads, SEO, and Brand Promotion.
+        My goal is to deliver real results and help businesses grow online fast.
+    </p
+</section>
+
+<!-- --------------- SERVICES SECTION --------------- -->
+<section id="services">
+    <h2>My Services</h2>
+
+    <div class="service-boxes">
+        <div class="service-card">Social Media Marketing</div>
+        <div class="service-card">Google Ads Campaign</div>
+        <div class="service-card">SEO Optimization</div>
+        <div class="service-card">Brand Promotion</div>
+    </div>
+</section>
+
+<!-- --------------- PORTFOLIO SECTION --------------- -->
+<section id="portfolio">
+    <h2>My Projects</h2>
+
+    <div class="portfolio-grid">
+        <!-- এখানে আপনার প্রজেক্ট ইমেজ বসাবেন -->
+        <div class="portfolio-item"><img src="your-image-1.jpg" alt="Project 1"></div>
+        <div class="portfolio-item"><img src="your-image-2.jpg" alt="Project 2"></div>
+        <div class="portfolio-item"><img src="your-image-3.jpg" alt="Project 3"></div>
+    </div>
+</section>
+
+<!-- --------------- CONTACT SECTION --------------- -->
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact-links">
+        <!-- এখানে আপনার কন্টাক্ট লিংক বসাবেন -->
+        <a href="https://www.linkedin.com/in/mubarakhasan">LinkedIn</a>
+        <a href="https://wa.me/8801749390624">WhatsApp</a>
+        <a href="https://www.facebook.com/profile.php?id=61582503940795">Facebook</a>
+        <a href="https://youtube.com/@hasanmarketing">YouTube</a>
+        <a href="mailto:mubarakhasanofficial@gmail.com">Email Me</a>
+    </div>
+</section>
+
+<!-- --------------- FOOTER --------------- -->
+<footer>
+    © 2025 Mubarak Hasan — All Rights Reserved
+</footer>
+
+
+<!-- --------------- JAVASCRIPT (যদি কিছু অ্যাড করতে চান) --------------- -->
+<script>
+    // এখানে আপনার JS কোড বসাতে পারবেন
+</script>
+
+</body>
+</html>
